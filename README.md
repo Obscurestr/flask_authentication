@@ -16,21 +16,27 @@ Features:
 
 7.Fully styled with Bootstrap
 
-Installation
+Installation:
 
 1.Clone the repo:
 git clone https://github.com/Obscurestr/flask_authentication.git
+
 cd flask_authentication
 
 2.Create and activate a virtual environment (optional but recommended):
+
 python -m venv venv
+
 source venv/bin/activate (on Windows: venv\Scripts\activate)
 
 3.Install dependencies:
+
 pip install flask flask_sqlalchemy flask_login
 
 4.Run the app:
+
 python app.py
 
 5.Open your browser:
+
 http://127.0.0.1:5000/
