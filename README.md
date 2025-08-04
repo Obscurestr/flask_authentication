@@ -1,6 +1,7 @@
 This is a simple Flask web application that demonstrates user registration, login, authentication, and secure content access using Flask-Login, SQLAlchemy, and Werkzeug.
 
 Features:
+
 1.User registration with email, name, and password
 
 2.Password hashing with pbkdf2:sha256
@@ -16,6 +17,7 @@ Features:
 7.Fully styled with Bootstrap
 
 Installation
+
 1.Clone the repo:
 git clone https://github.com/Obscurestr/flask_authentication.git
 cd flask_authentication
