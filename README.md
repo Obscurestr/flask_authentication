@@ -1,42 +1,85 @@
-This is a simple Flask web application that demonstrates user registration, login, authentication, and secure content access using Flask-Login, SQLAlchemy, and Werkzeug.
+# Flask Authentication App
 
-Features:
+This is a simple Flask web application that demonstrates user registration, login, authentication, and secure content access using **Flask-Login**, **SQLAlchemy**, and **Werkzeug**.
 
-1.User registration with email, name, and password
+## 🚀 Features
 
-2.Password hashing with pbkdf2:sha256
+- ✅ User registration with email, name, and password  
+- 🔐 Password hashing using `pbkdf2:sha256`  
+- 🔓 User login and logout  
+- 🔒 Secure page accessible only to logged-in users  
+- 💬 Flash messaging for user feedback  
+- 📁 Downloadable file available for authenticated users  
+- 🎨 Fully styled with Bootstrap  
 
-3.User login and logout
+---
 
-4.Secure page accessible only to logged-in users
+## 🛠 Installation
 
-5.Flash messaging for feedback
+### 1. Clone the repository
 
-6.Downloadable file for authenticated users
-
-7.Fully styled with Bootstrap
-
-Installation:
-
-1.Clone the repo:
+```bash
 git clone https://github.com/Obscurestr/flask_authentication.git
-
 cd flask_authentication
+```
 
-2.Create and activate a virtual environment (optional but recommended):
+### 2. Create and activate a virtual environment *(optional but recommended)*
 
+**On macOS/Linux:**
+
+```bash
 python -m venv venv
+source venv/bin/activate
+```
 
-source venv/bin/activate (on Windows: venv\Scripts\activate)
+**On Windows:**
 
-3.Install dependencies:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
+### 3. Install dependencies
+
+```bash
 pip install flask flask_sqlalchemy flask_login
+```
 
-4.Run the app:
+Or if you have a `requirements.txt` file:
 
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
 python app.py
+```
 
-5.Open your browser:
+---
 
+## 🌐 Open in your browser
+
+```
 http://127.0.0.1:5000/
+```
+
+---
+
+## 📂 Folder Structure
+
+```
+flask_authentication/
+│
+├── app.py
+├── requirements.txt
+├── templates/
+│   └── ...
+├── static/
+│   └── ...
+└── README.md
+```
+
+---
+ 
